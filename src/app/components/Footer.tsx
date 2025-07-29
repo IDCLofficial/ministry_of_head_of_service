@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const info = {
     logo: "/logo.png",
-    ministry: "Agriculture",
-    description: "The Ministry of Agriculture and Food Security in Imo State was established to spearhead agricultural development and rural transformation. Since its creation in the early years of the state’s formation in 1976, the ministry has evolved through reforms, focusing on food production, agro-industrial growth, farmer support, and policy-driven agricultural transformation across the state.",
+    ministry: "Head of Service",
+    description: "The Imo State Ministry of Head of Service is the administrative hub of the civil service. It coordinates, supervises, and reforms civil service operations to ensure that government functions are executed by well-trained, professional, and ethically grounded personnel. The ministry drives public sector excellence by fostering a culture of discipline, merit, and accountability.",
     quickLinks: [
         {
             label: "Projects",
@@ -47,11 +47,11 @@ const info = {
             href: "/"
         },
         {
-            label: "agriculture@imostate.gov.ng",
+            label: "hos@imostate.gov.ng",
             href: "/"
         },  
         {
-            label: "Ministry Address: Block 4, State Secretariat Complex, Owerri, Imo State.",
+            label: "Ministry Address: Imo State Secretariat Complex, Owerri, Imo State, Nigeria.",
             href: "/"
         },
     ]

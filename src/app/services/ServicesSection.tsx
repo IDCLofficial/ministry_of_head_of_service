@@ -2,36 +2,30 @@ import ServiceCard from "./ServiceCard";
 
 const services = [
   {
-    imgSrc: "/images/agric_extension.jpeg",
-    title: "Agricultural Extension Services",
-    description: "On-field support and training for farmers, access to crop and livestock specialists, soil testing and advisory services."
+    imgSrc: "",
+    title: "Civil Service Appointment Processing:",
+    description: "Facilitation of new appointments into the civil service, including issuance of appointment letters and onboarding guidance."
   },
   {
-    imgSrc: "/images/grant.webp",
-    title: "Grant & Subsidy Application",
-    description: "Information on how to apply for: Fertilizer subsidies, Equipment leasing, Youth-in-Agric programs; link to downloadable forms and requirements."
+    imgSrc: "",
+    title: "Promotion and Confirmation Status Updates:",
+    description: "Information and updates regarding the status of staff promotions, confirmations, and career progression."
   },
   {
-    imgSrc: "/images/farmers_portal.jpg",
-    title: "Farmer Registration Portal",
-    description: "Link to register as a farmer in Imo State, access to inputs, subsidies, and grants, downloadable registration forms."
+    imgSrc: "",
+    title: "Pension Verification & Documentation:",
+    description: "Verification of retiree records and support with pension documentation for timely benefits processing."
   },
   {
-    imgSrc: "/images/landAllocation.jpg",
-    title: "Land Allocation for Farming",
-    description: "How to apply for agricultural land, land use policy documents, contact details for land processing unit. "
+    imgSrc: "",
+    title: "Training Program Applications:",
+    description: "Access to upcoming staff training opportunities and application procedures."
   },
   {
-    imgSrc: "/images/vertinary.jpg",
-    title: "Veterinary Services",
-    description: "Animal healthcare and vaccinations, schedule of mobile vet clinic visits, request service button"
-  },
-  {
-    imgSrc: "/images/agroProcessing.jpg",
-    title: "Agro-Processing & Storage Support",
-    description: "Info on available state silos and storage centers, assistance for small-scale processors, public-private collaboration guidelines."
-  },
-
+    imgSrc: "",
+    title: "Official Records and Letter Issuance:",
+    description: "Provision of employment confirmation letters, transfer approvals, and other official civil service documents."
+  }
 ];
 
 export default function ServicesSection() {

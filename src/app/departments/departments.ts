@@ -1,52 +1,22 @@
 export const departments = [
   {
-    name: "Department of Agricultural Services",
-    image: "/images/aboutUs1.png",
-    description: "Coordinates crop production, distribution of inputs (seeds, fertilizers), and general farming support services."
+    name: "Human Resource Management Department",
+    image: "",
+    description: "Responsible for overseeing civil servant appointments, postings, and promotions. This department ensures merit-based processes, fair recruitment, and efficient workforce deployment across ministries."
   },
   {
-    name: "Department of Livestock and Veterinary Services",
-    image: "/images/aboutUs1.png",
-    description: "Oversees animal husbandry, veterinary health, disease control, and livestock development programs."
+    name: "Planning, Research & Statistics Department",
+    image: "",
+    description: "Handles policy planning and development through data collection, research, and performance evaluation. It tracks civil service trends to guide informed decision-making and strategic reforms."
   },
   {
-    name: "Department of Fisheries and Aquaculture",
-    image: "/images/aboutUs1.png",
-    description: "Manages fish farming, inland water fishing, and supports fishermen with training and inputs."
+    name: "Training & Capacity Development Department",
+    image: "",
+    description: "Designs and implements training programs to enhance staff skills and improve job performance. This department promotes continuous learning and capacity-building across all cadres."
   },
   {
-    name: "Department of Agricultural Extension Services",
-    image: "/images/aboutUs1.png",
-    description: "Provides on-the-ground advisory services, training, and technology transfer to farmers across LGAs."
-  },
-  {
-    name: "Department of Planning, Research and Statistics",
-    image: "/images/aboutUs1.png",
-    description: "Conducts agricultural research, data collection, policy planning, monitoring, and evaluation of projects."
-  },
-  {
-    name: "Department of Agro-processing and Marketing",
-    image: "/images/aboutUs1.png",
-    description: "Promotes value addition, supports agro-processing enterprises, and facilitates market access for farm produce."
-  },
-  {
-    name: "Department of Mechanization and Irrigation",
-    image: "/images/aboutUs1.png",
-    description: "Introduces and manages farm mechanization, irrigation systems, and equipment leasing to farmers."
-  },
-  {
-    name: "Department of Finance and Accounts",
-    image: "/images/aboutUs1.png",
-    description: "Handles budgeting, expenditure control, accounting, and financial reporting for the ministry."
-  },
-  {
-    name: "Department of Human Resource Management",
-    image: "/images/aboutUs1.png",
-    description: "Manages recruitment, staff welfare, promotions, and training of ministry personnel."
-  },
-  {
-    name: "Department of Climate-Smart Agriculture and Environment",
-    image: "/images/aboutUs1.png",
-    description: "Promotes environmentally sustainable farming practices and climate resilience strategies."
-  },
+    name: "Pension and Records Unit",
+    image: "",
+    description: "Manages retirement benefits, service records, and personnel documentation. It ensures timely processing of pensions and maintains accurate civil service archives."
+  }
 ];

@@ -17,16 +17,16 @@ const teamMembers = Array(4).fill({
 export default function AboutUs() {
     return (
         <div className="h-screen">
-            <AboutUsHero ministryName="Ministry of Agriculture" />
+            <AboutUsHero ministryName="Ministry of Head of Service" />
             <AboutSection 
-                aboutText="On behalf of the Ministry of Agriculture and Food Security, Imo State, I warmly welcome you. Our mission is to ensure food sufficiency, empower farmers, and drive agribusiness for economic growth. Together, we’ll strengthen agricultural value chains, improve livelihoods, and secure a sustainable future. Thank you for supporting our shared vision of agricultural excellence. The Ministry of Agriculture and Food Security in Imo State was established to spearhead agricultural development and rural transformation. Since its creation in the early years of the state’s formation in 1976, the ministry has evolved through reforms, focusing on food production, agro-industrial growth, farmer support, and policy-driven agricultural transformation across the state."
+                aboutText="The Imo State Ministry of Head of Service is the administrative hub of the civil service. It coordinates, supervises, and reforms civil service operations to ensure that government functions are executed by well-trained, professional, and ethically grounded personnel. The ministry drives public sector excellence by fostering a culture of discipline, merit, and accountability."
                 imgSrc="/images/agriculture.jpg" 
                 altText="Ministry of Sports and Youth Development conference event" 
             />
             <MVSSection />   
             <ObjectivesSection />
             <StructuresSection 
-                imgSrc="/images/building.png"
+                imgSrc="/images/fed-sec.jpg"
             />
             <section className="w-full py-10 md:py-16 px-2 md:px-4 bg-white mx-auto flex flex-col items-center">
                 <TeamGridSection members={teamMembers} />

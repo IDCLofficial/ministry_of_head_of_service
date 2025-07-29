@@ -1,32 +1,20 @@
 export const ObjectivesSection = () => {
     const agencies: { title: string; description: string }[] = [
         {
-            title: "Food Security",
-            description: "Guarantee consistent access to sufficient, nutritious, and affordable food for all."
+            title: "Merit-Based Appointments & Promotions",
+            description: "Promote merit-based appointments and promotions."
         },
         {
-            title: "Farmer Empowerment",
-            description: "Provide farmers with training, modern tools, inputs, and financial support."
+            title: "Civil Service Training & Retraining",
+            description: "Strengthen civil service training and retraining programs."
         },
         {
-            title: "Agribusiness Development",
-            description: "Encourage investment in agro-processing and value chain development."
+            title: "ICT & Digital Transformation",
+            description: "Drive ICT adoption and digital transformation across ministries."
         },
         {
-            title: "Youth and Women Inclusion",
-            description: "Promote youth and women participation in agriculture through targeted programs."
-        },
-        {
-            title: "Rural Infrastructure Development",
-            description: "Improve roads, irrigation, storage, and market facilities in rural areas."
-        },
-        {
-            title: "Climate-Smart Agriculture",
-            description: "Support environmentally sustainable and resilient farming systems."
-        },
-        {
-            title: "Research and Innovation",
-            description: "Invest in agricultural research, technology adoption, and extension services for improved productivity."
+            title: "Transparent & Timely Service Delivery",
+            description: "Ensure transparent and timely service delivery to the public."
         }
     ];
 

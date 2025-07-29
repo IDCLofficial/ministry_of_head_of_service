@@ -3,11 +3,11 @@ import { MVSCard } from "./MVSCard"
 const mvs = [
     {
         title: "Our Mission",
-        description: "To promote sustainable agricultural development through innovation, farmer empowerment, and agribusiness support, ensuring food security, economic growth, and improved livelihoods for all citizens of Imo State."
+        description: "To build a world-class civil service in Imo State through integrity, efficiency, and continuous improvement."
     },
     {
         title: "Our Vision",
-        description: "To build a vibrant, modern, and sustainable agricultural sector that ensures food sufficiency, drives economic prosperity, and positions Imo State as a leading hub for agribusiness and rural development in Nigeria."
+        description: "To ensure effective management of human resources and provide a framework for a responsive and accountable public service."
     }
 ]   
 

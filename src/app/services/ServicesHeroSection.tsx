@@ -18,7 +18,7 @@ export default function ServicesHeroSection() {
                         initial={{ opacity: 1 }}
                         animate={{}}
                     >
-                        {"Cultivating Prosperity and Food Security for Imo State".split(" ").map((word, wordIdx, arr) => (
+                        {"Delivering Timely and Transparent Civil Service".split(" ").map((word, wordIdx, arr) => (
                             <span key={wordIdx} style={{ display: "inline-block", whiteSpace: "pre" }}>
                                 {word.split("").map((char, charIdx) => (
                                     <motion.span

@@ -19,7 +19,7 @@ export const StructuresSection = ({imgSrc}: StructuresSectionProps) => {
                     Our Structure
                 </h2>
                 <p className="text-white text-base md:text-[1rem] mb-8 md:mb-16 w-full md:w-[60%] mx-auto">
-                    The Ministry is divided into specialized departments that work collectively to achieve the ministry&apos;s objectives.
+                The Imo State Ministry of Head of Service operates through several core departments and associated agencies that ensure effective service delivery, efficient workforce management, and the smooth running of government operations. Each department plays a vital role in upholding professionalism, ethics, and performance across the civil service structure.
                 </p>
                 {/* Main Image */}
                 <div className="relative w-full h-[180px] md:h-[500px] rounded-xl overflow-hidden shadow-lg mb-8 md:mb-20">

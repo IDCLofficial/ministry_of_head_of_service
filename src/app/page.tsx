@@ -12,15 +12,15 @@ export default function Home() {
   return (
     <div className="h-screen w-full bg-red-400">
       <Hero
-        title="Imo State Ministry of Agriculture" 
-        caption="Feeding Imo, Empowering Farmers" 
-        subtitle="Driving agricultural innovation and food security through inclusive, sustainable practices."
+        title="Imo State Ministry of Head of Service" 
+        caption="Driving Excellence and Professionalism in the Civil Service" 
+        subtitle="Welcome to the official website of the Imo State Ministry of Head of Service. We are charged with shaping policies, programs, and reforms that promote a professional, disciplined, and effective civil service in Imo State. Our commitment is to build a public service culture that upholds merit, ethics, and excellence in governance."
       />
       <AboutSection 
         title="About Us"
-        subtitle="The Ministry of Agriculture and Food Security in Imo State was established to spearhead agricultural development and rural transformation. Since its creation in the early years of the state’s formation in 1976, the ministry has evolved through reforms, focusing on food production, agro-industrial growth, farmer support, and policy-driven agricultural transformation across the state."
-        image1="/images/agriculture.jpg"
-        image2="/images/agriculture2.jpg"
+        subtitle= "The Imo State Ministry of Head of Service is the administrative hub of the civil service. It coordinates, supervises, and reforms civil service operations to ensure that government functions are executed by well-trained, professional, and ethically grounded personnel. The ministry drives public sector excellence by fostering a culture of discipline, merit, and accountability."
+        image1="/images/hos1.jpg"
+        image2="/images/hos2.jpg"
       />
       <AboutCommisioner 
         imgSrc="/images/user.png" 

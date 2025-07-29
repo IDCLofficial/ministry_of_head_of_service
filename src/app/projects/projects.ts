@@ -8,21 +8,51 @@ interface project {
 
 export const projects = [
   {
-    title: "Mechanization Access Program (MAP)",
-    image: "/images/mechanization.jpg",
-    ongoing: true,
-    description: "Provides tractors and mechanized tools to registered farmers at subsidized rates in partnership with private leasing firms and agro-dealers,"
+    title: "Digital HR Records Management System",
+    image: "",
+    status: "ongoing",
+    description: "Development of a secure, centralized digital database for managing civil servant records and improving administrative efficiency."
   },
   {
-    title: "Youth in Agri-Tech Program",
-    image: "/images/youthInAgri.jpg",
-    ongoing: true,
-    description: "Trains young farmers on hydroponics, precision farming, and drone mapping with 200 beneficiaries from Owerri zone including internships with tech-enabled farms;"
-  },    
+    title: "Staff Audit & Verification Program",
+    image: "",
+    status: "ongoing",
+    description: "A continuous effort to ensure that only qualified and verified personnel are retained within the civil service structure."
+  },
   {
-    title: "Fish for All Aquaculture Initiative",
-    image: "/images/fish.jpg",
-    ongoing: false,
-    description: "Built 10 community fish farms across Imo West, trained 300 young aquapreneurs, provided fingerlings and starter feed kits, with option to “Download Project Report"
+    title: "Pension Reform Initiative",
+    image: "",
+    status: "ongoing",
+    description: "Automation of pension processing workflows for timely verification, approval, and payment of entitlements to retired staff."
+  },
+  {
+    title: "2024 Civil Service Reform Policy Launch",
+    image: "",
+    status: "completed",
+    description: "Roll-out of a new reform policy aimed at strengthening ethical standards, transparency, and performance evaluation across ministries."
+  },
+  {
+    title: "Training Workshops in Partnership with ASCON",
+    image: "",
+    status: "completed",
+    description: "Capacity-building workshops conducted for over five hundred civil servants across ten ministries, focused on productivity and service excellence."
+  },
+  {
+    title: "Document Digitization Drive",
+    image: "",
+    status: "completed",
+    description: "More than twelve thousand physical personnel files have been scanned and archived securely as part of a move toward a paperless civil service."
+  },
+  {
+    title: "E-Governance Portal Rollout",
+    image: "",
+    status: "upcoming",
+    description: "Launch of an integrated digital platform to allow civil servants and the public to access forms, service updates, and lodge complaints online."
+  },
+  {
+    title: "Imo State Civil Service Innovation Challenge 2025",
+    image: "",
+    status: "upcoming",
+    description: "A creative engagement initiative aimed at rewarding innovative ideas from public servants that can enhance efficiency and public value."
   },
 ];
