@@ -20,12 +20,12 @@ export default function FeaturedInitiatives() {
         initial={{ opacity: 0, y: 80 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
-        className="w-full mx-auto flex flex-col md:flex-row justify-center gap-6 md:gap-8 px-0 md:px-4"
+        className="w-full mx-auto flex flex-col lg:flex-row justify-center gap-6 md:gap-8 px-0 md:px-4"
       >
         {projects?.slice(0, 4).map((project) => (
-          <div key={project.title} className="bg-white flex flex-col items-center h-full relative cursor-pointer hover:scale-105 transition-all duration-300">
-            <div className="relative w-full h-[140px] md:h-[200px] z-0">
-              <Image src={project.image} alt={project.title} fill className="object-cover" />
+          <div key={project.title} className="bg-white flex-1 flex flex-col items-center h-full relative cursor-pointer hover:scale-105 transition-all duration-300">
+            <div className="relative w-full h-[350px] sm:h-[400px] lg:h-[250px] z-0">
+              <Image src={project.image} alt={project.title} fill className="object-fill" />
             </div>
             <div className="w-full flex-1 flex flex-col justify-between md:items-center p-2 md:p-4 bg-white mx-auto shadow-md">
                 <div>

@@ -1,4 +1,4 @@
-# Ministry of Finance Web App
+# Ministry of Head of Service Web App
 
 This project is a modern, modular web application built with [Next.js](https://nextjs.org), TypeScript, and Tailwind CSS. It is designed for the Imo State Ministry of Finance, providing a comprehensive digital platform for transparent governance, accountable finance, and sustainable growth.
 

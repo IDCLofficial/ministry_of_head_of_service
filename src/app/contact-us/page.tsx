@@ -22,8 +22,8 @@ export default function ContactUsPage() {
         <ContactImageSection />
       </section>
       <CTASection 
-        heading="Partner with Us Today!"
-        subtext="Join us in cultivating a prosperous future for Imo State. Together, we can empower farmers, boost food security, and drive sustainable agricultural growth for every community."
+        heading="Need Assistance with Civil Service Matters?"
+        subtext="Get in touch with us for appointments, promotions, pensions, and other civil service services."
         buttonLabel="Contact Us"
         buttonHref="/contact-us"
       />

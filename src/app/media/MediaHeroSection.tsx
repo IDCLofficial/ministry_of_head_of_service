@@ -8,11 +8,11 @@ import { Title } from "../components/Title";
 
 interface MediaHeroSectionProps {
   title: string;
-  subtitle: string;
-  backgroundImage: string;
+  subtitle?: string;
+  backgroundImage?: string;
 }
 
-const MediaHeroSection: React.FC<MediaHeroSectionProps> = ({ title, subtitle }) => {
+const MediaHeroSection: React.FC<MediaHeroSectionProps> = ({title}) => {
   return (
     <SubsequentHero
       className={`bg-[url('/images/gradient.png')] bg-cover bg-center`}

@@ -1,7 +1,6 @@
 "use client"
 
 import Image from "next/image";
-import { Tree, TreeNode } from "react-organizational-chart";
 import { departments } from "../departments/departments";
 
 interface StructuresSectionProps {

@@ -9,8 +9,8 @@ export default function ProjectsPage() {
       <ProjectHeroSection />
       <ProjectsSection />
       <CTASection 
-        heading="Partner with Us Today!"
-        subtext="Join us in cultivating a prosperous future for Imo State. Together, we can empower farmers, boost food security, and drive sustainable agricultural growth for every community."
+        heading="Learn More About Our Civil Service Projects?"
+        subtext="Discover our key initiatives in civil service reform and digital transformation."
         buttonLabel="Contact Us"
         buttonHref="/contact-us" 
       />

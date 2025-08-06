@@ -1,8 +1,10 @@
 "use client"
 
+import { ReactNode} from "react";
 import { motion } from "framer-motion";
 import PageTransition from "./PageTransition";
 import { Title } from "./Title";
+import { AppLink } from "./AppLink";
 
 interface HeroProps {
     title: string;
@@ -10,32 +12,12 @@ interface HeroProps {
     subtitle: string;
 }
 
-interface HeroImages {
-    bgImage: string;
+interface SubsequentHeroProps {
+    children: ReactNode,
+    className?: string;
 }
 
-
-const heroImages: HeroImages[] = [
-    {
-        bgImage: "/images/heroImage.png"
-    },
-    {
-        bgImage: "/images/heroImage2.jpg"
-    },
-    {
-        bgImage: "/images/heroImage3.jpg"
-    }
-];
-
 export const Hero = ({title, caption, subtitle}: HeroProps) => {
-    const [current, setCurrent] = useState(0);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrent((prev) => (prev + 1) % heroImages.length);
-        }, 5000); // 5 seconds per slide
-        return () => clearInterval(interval);
-    }, []);
 
     // const { bgImage } = heroImages[current];
     const bgImage = "/images/fed-sec.jpg";
@@ -46,7 +28,7 @@ export const Hero = ({title, caption, subtitle}: HeroProps) => {
                 key={bgImage}
                 src={bgImage}
                 className="absolute inset-0 w-full h-full object-cover z-0"
-                initial={{ scale: .97}}
+                initial={{ scale: .99}}
                 whileInView={{ scale: 1}}
                 transition={{ duration: 2, ease: "easeOut" }}
             />
@@ -60,7 +42,7 @@ export const Hero = ({title, caption, subtitle}: HeroProps) => {
                             {subtitle}
                         </p>
                         <AppLink href="/contact-us" label="Join Us" variant="primary" className="block w-max border border-1 border-primary-green text-[15px] px-[2rem] py-[12px] rounded-[3.4px] 
-                font-medium hover:bg-white hover:text-black transition-all duration-300 mt-4 animate-bounce animate-once animate-duration-1000 animate-ease-in-out hover:animate-none"/>
+                font-medium hover:bg-white hover:text-black transition-all duration-300 mt-4 animate-bounce animate-ease-in-out hover:animate-none"/>
                     </PageTransition>
                 </div>
             </div>
@@ -68,13 +50,7 @@ export const Hero = ({title, caption, subtitle}: HeroProps) => {
     )
 }
 
-import { ReactNode, useEffect, useState } from "react";
-import { AppLink } from "./AppLink";
 
-interface SubsequentHeroProps {
-    children: ReactNode,
-    className?: string;
-}
 
 export const SubsequentHero = ({ children, className }: SubsequentHeroProps) => {
     return (

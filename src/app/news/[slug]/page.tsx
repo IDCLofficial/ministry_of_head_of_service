@@ -75,7 +75,7 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
         </div>
       </div>
       {/* Section 3: Footer */}
-      <CTASection heading="Ready to Experience the New Imo?" subtext="Discover our vision for an inclusive, empowered, and connected state." buttonLabel="Contact Us" buttonHref="/contact-us"/>
+      <CTASection heading="Stay Informed About Civil Service Updates" subtext="Get the latest news and announcements from the Imo State Ministry of Head of Service." buttonLabel="Contact Us" buttonHref="/contact-us"/>
       <Footer />
     </div>
   );

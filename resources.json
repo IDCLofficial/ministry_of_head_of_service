@@ -1,0 +1,213 @@
+{
+  "website_recommendations": {
+    "home": {
+      "ministry_name": "Imo State Ministry of Head of Service",
+      "slogan": "Driving Excellence and Professionalism in the Civil Service",
+      "quick_intro": "Welcome to the official website of the Imo State Ministry of Head of Service. We are responsible for steering policies, programs, and reforms that shape a professional, disciplined, and effective civil service in Imo State.",
+      "commissioners_quote": {
+        "message": "Our goal is to build a results-driven public service system that ensures transparency, merit, and efficient service delivery across all ministries in Imo State.",
+        "attribution": "Mrs. Roseline Chinyere Osuji, Head of Service"
+      },
+      "featured_highlights": [
+        "View Services",
+        "Explore Departments",
+        "Latest News",
+        "Contact Us"
+      ]
+    },
+    "about_us": {
+      "ministry_name": "Imo State Ministry of Head of Service",
+      "overview": "The Ministry of Head of Service coordinates and oversees the activities of the civil service in Imo State. It ensures that government operations are executed by well-trained, professional, and ethically grounded civil servants",
+      "head_of_service_profile": {
+        "name": "Mrs. Roseline Chinyere Osuji",
+        "position": "Head of Service, Imo State",
+        "bio": "A seasoned civil servant with years of experience in administrative leadership, driving reforms in civil service structures and performance",
+        "permanent_secretary": "Name and contact to be updated"
+      },
+      "vision_statement": "To build a world-class civil service in Imo State through integrity, efficiency, and continuous improvement.",
+      "mission_statement": "To ensure effective management of human resources and provide a framework for a responsive and accountable public service.",
+      "strategic_objectives": [
+        "Promote merit-based appointments and promotions",
+        "Strengthen civil service training and retraining",
+        "Drive ICT adoption across ministries",
+        "Ensure transparent and timely service delivery"
+      ]
+    },
+    "head_of_service": {
+      "page_title": "Head of Service – Imo State",
+      "hero_section": {
+        "photo": "Photo of Head of Service",
+        "name": "Mrs. Roseline Chinyere Osuji",
+        "official_title": "Head of Service, Imo State"
+      },
+      "sections": {
+        "biography": "Detailed bio outlining her background, years of experience in the civil service, leadership roles, and major reforms led within Imo State's public sector.",
+        "official_message": "Our goal is to build a results-driven public service system that ensures transparency, merit, and efficient service delivery across all ministries in Imo State.",
+        "core_responsibilities": [
+          "Civil service management",
+          "Policy oversight",
+          "Recruitment & promotions",
+          "Inter-agency coordination",
+          "Training & workforce development"
+        ],
+        "achievements_reforms": [
+          "Civil service restructuring",
+          "ICT integration in HR",
+          "E-governance frameworks",
+          "Staff auditing & compliance monitoring"
+        ],
+        "focus_areas": [
+          "Transparency & accountability",
+          "Capacity building",
+          "Ethics & professionalism",
+          "Digital transformation",
+          "Performance evaluation"
+        ],
+        "media_events": [
+          "Photos",
+          "videos",
+          "public addresses",
+          "press releases involving the Head of Service"
+        ],
+        "contact_information": {
+          "email": "[Email placeholder]",
+          "phone": "[Phone placeholder]",
+          "office_address": "same as ministry HQ"
+        },
+        "quote_vision": "Highlight a visionary quote or motto that reflects her goals for Imo State's civil service"
+      }
+    },
+    "departments_agencies": {
+      "page_title": "Departments",
+      "overview": "The Ministry comprises several specialized departments that ensure effective service delivery and smooth administration of civil service processes.",
+      "key_departments": [
+        {
+          "name": "Human Resource Management",
+          "responsibility": "Responsible for appointments, promotions, and postings"
+        },
+        {
+          "name": "Planning, Research & Statistics",
+          "responsibility": "Handles data-driven policy development and performance tracking"
+        },
+        {
+          "name": "Training & Capacity Development",
+          "responsibility": "Oversees staff development and training programs"
+        },
+        {
+          "name": "Pension and Records Unit",
+          "responsibility": "Manages civil service pensions and personnel records"
+        }
+      ],
+      "agencies_under_ministry": [
+        "Civil Service Commission",
+        "Administrative Staff College (if applicable) – To be confirmed or added if more info is available"
+      ]
+    },
+    "services": {
+      "page_title": "Services",
+      "services_to_public": [
+        "Civil service appointment processing",
+        "Promotion and confirmation status updates",
+        "Pension verification & documentation",
+        "Training program applications",
+        "Official records and letter issuance"
+      ],
+      "forms_documents": [
+        "Application for Promotion",
+        "Pension Claim Form",
+        "Civil Service Registration Template"
+      ],
+      "common_inquiries": [
+        "How do I check my promotion status?",
+        "What documents are needed for pension verification?",
+        "When is the next civil service training?"
+      ],
+      "feedback_suggestion_box": "Have a complaint or suggestion? [Click here to send us feedback.]"
+    },
+    "projects": {
+      "page_title": "Projects",
+      "overview": "This page features key initiatives undertaken by the Imo State Ministry of Head of Service, including ongoing reforms, digital transformation efforts, staff welfare improvements, and collaborations with other agencies.",
+      "ongoing_projects": [
+        {
+          "name": "Digital HR Records Management System",
+          "description": "Creating an online database for all civil servants"
+        },
+        {
+          "name": "Staff Audit & Verification Program",
+          "description": "Ensuring only qualified, verified workers remain in service"
+        },
+        {
+          "name": "Pension Reform Initiative",
+          "description": "Automating pension processes for quicker payment cycles"
+        }
+      ],
+      "completed_projects": [
+        {
+          "name": "2024 Civil Service Reform Policy Launch",
+          "description": "Introduced a new framework for ethical standards and performance"
+        },
+        {
+          "name": "Training Workshops in Partnership with ASCON",
+          "description": "For 500+ civil servants across 10 ministries"
+        },
+        {
+          "name": "Document Digitization Drive",
+          "description": "Over 12,000 files scanned and stored securely"
+        }
+      ],
+      "upcoming_projects": [
+        {
+          "name": "E-Governance Portal Rollout",
+          "description": "To improve access to forms, updates, and complaints digitally"
+        },
+        {
+          "name": "Imo State Civil Service Innovation Challenge 2025",
+          "description": "Rewarding creative public servants"
+        }
+      ],
+      "project_gallery_downloads": [
+        "Photos from events and site visits",
+        "PDF documents: Project Reports, Budgets, Circulars"
+      ],
+      "get_involved": "Have ideas or feedback about our projects? [Submit Here]"
+    },
+    "news": {
+      "page_title": "News",
+      "latest_news_events": [
+        {
+          "title": "Ongoing Reforms in Civil Service",
+          "date": "July 2025"
+        },
+        {
+          "title": "HOS Attends National HR Conference",
+          "date": "June 2025"
+        },
+        {
+          "title": "Pension Screening for Retirees Commences",
+          "date": "May 2025"
+        }
+      ],
+      "archives": "Search past press releases, project launches, and circulars from the ministry"
+    },
+    "contacts": {
+      "page_title": "Contact Us",
+      "address": "Imo State Secretariat Complex, Owerri, Imo State, Nigeria",
+      "phone": "(+234) [To Be Confirmed]",
+      "email": "hos@imostate.gov.ng (placeholder until confirmed)",
+      "social_media": [
+        "Facebook",
+        "Twitter",
+        "Instagram"
+      ],
+      "contact_form": {
+        "fields": [
+          "Name",
+          "Email",
+          "Subject",
+          "Message"
+        ],
+        "submit_button": "[Submit Button]"
+      }
+    }
+  }
+}

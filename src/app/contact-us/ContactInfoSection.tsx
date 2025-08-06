@@ -15,7 +15,7 @@ const contactInfo = {
 
 const ContactInfoSection = () => (
   <div className="mb-8 md:mb-0">
-    <p className="mb-4 text-[#151A21] text-[1rem]">We welcome your inquiries, suggestions, and feedback. Whether you're a civil servant, retiree, job seeker, or member of the public, the Imo State Ministry of Head of Service is here to assist you.</p>
+    <p className="mb-4 text-[#151A21] text-[1rem]">We welcome your inquiries, suggestions, and feedback. Whether you&apos;re a civil servant, retiree, job seeker, or member of the public, the Imo State Ministry of Head of Service is here to assist you.</p>
     <h2 className="text-xl font-bold mb-2">Contact Us</h2>
     <ul className="space-y-2 mb-4">
       <li className="flex items-start gap-2 text-[#151A21]"><FaMapMarkerAlt className="mt-1 text-xl" /> <span>{contactInfo.address}</span></li>

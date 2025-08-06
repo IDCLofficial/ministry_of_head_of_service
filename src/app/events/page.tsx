@@ -11,8 +11,8 @@ export default function EventsPage() {
       <EventsListSection />
       <PastEvents />
       <CTASection 
-        heading="Together we can Promote Tourism and Culture in Imo State"
-        subtext="Want to get involved or partner with us? Reach out today"
+        heading="Stay Informed About Civil Service Events"
+        subtext="Get updates on upcoming civil service events, workshops, and training sessions."
         buttonLabel="Contact Us" 
         buttonHref="/contact-us"
       />

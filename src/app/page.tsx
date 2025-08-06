@@ -2,11 +2,11 @@ import { Hero } from "@/app/components/Hero";
 import AboutSection from "@/app/components/AboutSection";
 import AboutCommisioner from "@/app/components/AboutCommisioner";
 import QuickLinks from "@/app/components/QuickLinks";
-// import Stats from "@/app/components/Stats";
 import CTASection from "@/app/components/CTASection";
 import Footer from "@/app/components/Footer";
 import FeaturedInitiatives from "./components/FeaturedInitiatives";
-import FeaturedPartners from "./components/FeaturedPartners";
+// import Stats from "@/app/components/Stats";
+//import FeaturedPartners from "./components/FeaturedPartners";
 
 export default function Home() {
   return (
@@ -28,15 +28,13 @@ export default function Home() {
       />
       <section className="w-full flex flex-col gap-4">
         <FeaturedInitiatives />
-        <FeaturedPartners />
+        {/* <FeaturedPartners /> */}
         <QuickLinks />
         {/* <Advertisement /> */}
       </section>
-      {/* <Stats /> */}
-      {/* <FeaturedPartners /> */}
       <CTASection 
-        heading="Partner with Us Today!"
-        subtext="Join us in cultivating a prosperous future for Imo State. Together, we can empower farmers, boost food security, and drive sustainable agricultural growth for every community."
+        heading="Need Assistance with Civil Service Matters?"
+        subtext="Get help with appointments, promotions, pensions, and other civil service services."
         buttonLabel="Contact Us"
         buttonHref="/contact-us"
       />
