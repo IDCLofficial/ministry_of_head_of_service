@@ -4,7 +4,7 @@ import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaFacebookF, FaTwitter, FaInstagra
 const contactInfo = {
   address: "Ministry Address: Imo State Secretariat Complex, Owerri, Imo State, Nigeria",
   email: "hos@imostate.gov.ng",
-  phone: "+234 812 345 6789",
+  phone: "+234 806 797 0793",
   socials: [
     { icon: <FaFacebookF />, href: "https://www.facebook.com/Imotcac/" },
     { icon: <FaTwitter />, href: "#" },
