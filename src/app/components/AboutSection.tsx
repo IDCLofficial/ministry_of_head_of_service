@@ -13,7 +13,7 @@ interface AboutSectionProps {
 export default function AboutSection({title, subtitle, image1, image2}: AboutSectionProps) {
   return (
     <section className={`relative w-full p-4 md:px-4 py-12 md:py-20 bg-[url('/images/gradient.png')] bg-no-repeat bg-cover shadow-lg overflow-hidden`}>
-      <div className="flex flex-col gap-8 items-left w-full md:w-[90%] mx-auto">
+      <div className="flex flex-col gap-8 items-left w-full md:w-[95%] mx-auto">
         {/* Left: Text Content */}
         <div className="flex flex-col lg:flex-row h-full justify-between w-full gap-6 lg:gap-4">
             <PageTransition type="fadeUp">
@@ -42,10 +42,10 @@ export default function AboutSection({title, subtitle, image1, image2}: AboutSec
         {/* Right: Images */}
         <div className="flex flex-col md:flex-row items-center gap-4 lg:gap-8 w-full justify-center">
           <div className="relative rounded-lg overflow-hidden w-full md:w-[70%] h-[180px] md:h-[320px] max-lg:hidden">
-            <Image src={image1} alt="Mandate 1" fill className="object-fill" />
+            <Image src={image1} alt="Mandate 1" fill className="object-cover h-full w-full object-[50%_40%]" />
           </div>
           <div className="relative rounded-lg overflow-hidden w-full lg:w-[30%] h-[180px] sm:h-[350px] lg:h-[320px] flex items-center justify-center">
-            <Image src={image2} alt="Mandate 2" fill className="object-fill" />
+            <Image src={image2} alt="Mandate 2" fill className="object-cover h-full w-full" />
           </div>
         </div>
 

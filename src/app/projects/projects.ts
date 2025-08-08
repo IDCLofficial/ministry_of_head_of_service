@@ -33,26 +33,8 @@ export const projects:project[] = [
   },
   {
     title: "Training Workshops in Partnership with ASCON",
-    image: "",
+    image: "/images/ascon.jpg",
     status: "completed",
     description: "Capacity-building workshops conducted for over five hundred civil servants across ten ministries, focused on productivity and service excellence."
-  },
-  {
-    title: "Document Digitization Drive",
-    image: "",
-    status: "completed",
-    description: "More than twelve thousand physical personnel files have been scanned and archived securely as part of a move toward a paperless civil service."
-  },
-  {
-    title: "E-Governance Portal Rollout",
-    image: "",
-    status: "upcoming",
-    description: "Launch of an integrated digital platform to allow civil servants and the public to access forms, service updates, and lodge complaints online."
-  },
-  {
-    title: "Imo State Civil Service Innovation Challenge 2025",
-    image: "",
-    status: "upcoming",
-    description: "A creative engagement initiative aimed at rewarding innovative ideas from public servants that can enhance efficiency and public value."
   },
 ];

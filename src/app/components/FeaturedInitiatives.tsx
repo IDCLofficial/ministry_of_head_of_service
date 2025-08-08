@@ -23,7 +23,7 @@ export default function FeaturedInitiatives() {
         className="w-full mx-auto flex flex-col lg:flex-row justify-center gap-6 md:gap-8 px-0 md:px-4"
       >
         {projects?.slice(0, 4).map((project) => (
-          <div key={project.title} className="bg-white flex-1 flex flex-col items-center h-full relative cursor-pointer hover:scale-105 transition-all duration-300">
+          <div key={project.title} className="bg-white flex-1 flex flex-col items-center h-[300px] relative cursor-pointer hover:scale-105 transition-all duration-300">
             <div className="relative w-full h-[350px] sm:h-[400px] lg:h-[250px] z-0">
               <Image src={project.image} alt={project.title} fill className="object-fill" />
             </div>

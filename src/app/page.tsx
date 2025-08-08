@@ -19,11 +19,11 @@ export default function Home() {
       <AboutSection 
         title="About Us"
         subtitle= "The Imo State Ministry of Head of Service is the administrative hub of the civil service. It coordinates, supervises, and reforms civil service operations to ensure that government functions are executed by well-trained, professional, and ethically grounded personnel. The ministry drives public sector excellence by fostering a culture of discipline, merit, and accountability."
-        image1="/images/hos1.jpg"
+        image1="/images/uzodimma.jpeg"
         image2="/images/hos2.jpg"
       />
       <AboutCommisioner 
-        imgSrc="/images/user.png" 
+        imgSrc="/images/commissioner.png" 
         title="About The Commissioner" 
       />
       <section className="w-full flex flex-col gap-4">

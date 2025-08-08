@@ -1,18 +1,29 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { BiChevronDown } from "react-icons/bi";
 import newsList from "./newsList";
 
 const categories = [
-  { name: "Latest Updates", count: 12 },
-  { name: "Policies", count: 12 },
-  { name: "Latest Updates", count: 12 },
-  { name: "Latest Updates", count: 12 },
+  { name: "Latest Updates", count: 0 },
+  { name: "Policies", count: 0 },
 ];
 
 const popularNews = newsList.slice(0, 3).map(({ title, date, img }) => ({ title, date, img }));
 
-export default function NewsSidebar() {
+import React, { useState } from "react";
+
+export default function NewsSidebar({ onCategorySelect, selectedCategory }: { onCategorySelect?: (cat: string) => void, selectedCategory?: string }) {
+  // For demo: if parent does not provide, manage state locally
+  const [internalSelected, setInternalSelected] = useState<string | undefined>(selectedCategory);
+  const handleSelect = (cat: string) => {
+    if (onCategorySelect) {
+      onCategorySelect(cat);
+    } else {
+      setInternalSelected(cat);
+    }
+  }
   return (
     <aside className="w-full md:w-64 flex-shrink-0 bg-[#F9F9F9] p-2 md:p-4 mb-8 md:mb-0">
       <div className="md:hidden">
@@ -32,12 +43,19 @@ export default function NewsSidebar() {
       <div className="mb-6 md:mb-8 max-md:hidden">
         <h3 className="font-medium text-base md:text-[18px] mb-2 md:mb-4">CATEGORIES</h3>
         <ul className="space-y-1 md:space-y-2">
-          {categories.map((cat, idx) => (
-            <li key={idx} className="flex justify-between text-gray-700 text-xs md:text-[15px]">
-              <span>{cat.name}</span>
-              <span>{cat.count}</span>
-            </li>
-          ))}
+          {categories.map((cat, idx) => {
+            const isSelected = (selectedCategory ?? internalSelected) === cat.name;
+            return (
+              <li
+                key={idx}
+                className={`flex justify-between text-gray-700 text-xs md:text-[15px] cursor-pointer rounded px-2 py-1 transition ${isSelected ? 'bg-blue-100 font-semibold text-blue-700' : 'hover:bg-gray-100'}`}
+                onClick={() => handleSelect(cat.name)}
+              >
+                <span>{cat.name}</span>
+                <span>{cat.count}</span>
+              </li>
+            );
+          })}
         </ul>
       </div>
       <div className="max-md:hidden">

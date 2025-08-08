@@ -20,7 +20,7 @@ export default function AboutCommisioner({imgSrc, title}: AboutCommisionerProps)
         >
             {/* Left: Commissioner Image */}
             <div className="bg-white rounded-xl shadow-lg flex-shrink-0 w-full md:w-auto flex justify-center">
-                <div className="relative w-full h-[320px] sm:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[450px]">
+                <div className="relative w-full h-[320px] sm:w-[300px] md:h-[400px] lg:w-[400px] lg:h-[450px]">
                     <Image
                     src={imgSrc}
                     alt="Commissioner"
