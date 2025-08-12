@@ -1,28 +1,29 @@
+import { LuBadgeAlert, LuCheck, LuFile, LuNotepadText, LuPrinterCheck } from "react-icons/lu";
 import ServiceCard from "./ServiceCard";
 
 const services = [
   {
-    imgSrc: "",
+    imgSrc: <LuPrinterCheck className="text-[8rem] text-primary-green"/>,
     title: "Civil Service Appointment Processing:",
     description: "Facilitation of new appointments into the civil service, including issuance of appointment letters and onboarding guidance."
   },
   {
-    imgSrc: "",
+    imgSrc: <LuBadgeAlert className="text-[8rem] text-primary-green"/>,
     title: "Promotion and Confirmation Status Updates:",
     description: "Information and updates regarding the status of staff promotions, confirmations, and career progression."
   },
   {
-    imgSrc: "",
+    imgSrc: <LuCheck className="text-[8rem] text-primary-green"/>,
     title: "Pension Verification & Documentation:",
     description: "Verification of retiree records and support with pension documentation for timely benefits processing."
   },
   {
-    imgSrc: "",
+    imgSrc: <LuFile className="text-[8rem] text-primary-green"/>,
     title: "Training Program Applications:",
     description: "Access to upcoming staff training opportunities and application procedures."
   },
   {
-    imgSrc: "",
+    imgSrc: <LuNotepadText className="text-[8rem] text-primary-green"/>,
     title: "Official Records and Letter Issuance:",
     description: "Provision of employment confirmation letters, transfer approvals, and other official civil service documents."
   }

@@ -30,7 +30,7 @@ export default function UnitsTabsSection() {
       <div className="flex-1 px-4 md:px-10">
         <h2 className="text-2xl md:text-4xl font-medium mb-4">{active.name}</h2>
         <div className="w-full mb-4">
-          <Image src={active.image} alt={active.name} width={600} height={300} className="rounded-xl object-cover h-[300px]" />
+          <Image src={active.image} alt={active.name} width={600} height={300} className="rounded-xl object-cover h-full w-full" />
         </div>
         <p className="text-dark-primary-body text-base md:text-[1rem] text-dark-primary-body">{active.description}</p>
       </div>

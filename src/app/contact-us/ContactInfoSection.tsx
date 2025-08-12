@@ -1,15 +1,27 @@
 import React from "react";
 import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
-const contactInfo = {
+interface Social {
+  icon: React.ReactNode;
+  href: string;
+}
+
+interface ContactInfo {
+  address: string;
+  email: string;
+  phone: string;
+  socials: Social[];
+}
+
+const contactInfo: ContactInfo = {
   address: "Ministry Address: Imo State Secretariat Complex, Owerri, Imo State, Nigeria",
   email: "hos@imostate.gov.ng",
   phone: "+234 806 797 0793",
   socials: [
-    { icon: <FaFacebookF />, href: "https://www.facebook.com/Imotcac/" },
-    { icon: <FaTwitter />, href: "#" },
-    { icon: <FaInstagram />, href: "#" },
-    { icon: <FaLinkedinIn />, href: "#" },
+    // { icon: <FaFacebookF />, href: "https://www.facebook.com/Imotcac/" },
+    // { icon: <FaTwitter />, href: "#" },
+    // { icon: <FaInstagram />, href: "#" },
+    // { icon: <FaLinkedinIn />, href: "#" },
   ],
 };
 
@@ -24,7 +36,7 @@ const ContactInfoSection = () => (
     </ul>
     <div className="flex gap-4 mt-2">
       {contactInfo.socials.map((s, i) => (
-        <a key={i} href={s.href} className="text-white hover:bg-primary-green rounded-full bg-black p-2" target="_blank" rel="noopener noreferrer">{s.icon}</a>
+        <a key={i} href={s?.href} className="text-white hover:bg-primary-green rounded-full bg-black p-2" target="_blank" rel="noopener noreferrer">{s.icon}</a>
       ))}
     </div>
   </div>
