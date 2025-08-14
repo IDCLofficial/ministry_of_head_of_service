@@ -14,7 +14,7 @@ interface ContactInfo {
 }
 
 const contactInfo: ContactInfo = {
-  address: "Ministry Address: Imo State Secretariat Complex, Owerri, Imo State, Nigeria",
+  address: "Imo State Secretariat Complex, Owerri, Imo State, Nigeria",
   email: "hos@imostate.gov.ng",
   phone: "+234 806 797 0793",
   socials: [

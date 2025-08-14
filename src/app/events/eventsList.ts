@@ -31,7 +31,7 @@ const events: event[] = [
     address: "New Owerri (Rear Admiral Ndubuisi Kalu Square)",
     speakers: [
       {
-        name: "State Labour Leader",
+        name: "His Excellency, Governor of Imo State",
         img: "/images/events/Uzodimma.jpeg",
         role: "Guest speaker"
       },
@@ -69,7 +69,7 @@ const events: event[] = [
     title: "Inauguration of Imo State Civil Service Commission (new board)",
     description:
       "Governor administered oath and inaugurated the newly constituted Board of the Imo State Civil Service Commission — significant for appointments, postings and civil service administration in the state.",
-    img: "/images/events/civilServants_swearing.png",
+    img: "/images/events/Hope-Uzodimma.jpg",
     time: "10:00 AM",
     organizer: "Governor's Office, Imo State / Civil Service Commission",
     phone: "",
