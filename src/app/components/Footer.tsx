@@ -50,11 +50,11 @@ const info = {
             href: "tel:+2348067970793"
         },
         {
-            label: "Email: hos@imostate.gov.ng",
+            label: "hos@imostate.gov.ng",
             href: "mailto:hos@imostate.gov.ng"
         },  
         {
-            label: "Ministry Address: Imo State Secretariat Complex, Owerri, Imo State, Nigeria.",
+            label: "Imo State Secretariat Complex, Owerri, Imo State, Nigeria.",
             href: "/"
         },
     ]

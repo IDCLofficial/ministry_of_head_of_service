@@ -5,6 +5,7 @@ import ReadySection from "../../news/ReadySection";
 import Footer from "../../components/Footer";
 import events from "../eventsList";
 import { useEffect, useState } from "react";
+import CTASection from "@/app/components/CTASection";
 
 interface Speaker {
   img: string;
@@ -142,7 +143,7 @@ export default function EventDetailPage({ params }: { params: Promise<{ slug: st
           {(event.speakers && (event.speakers as Speaker[]).length > 0) ? (event.speakers as Speaker[]).map((sp, idx) => (
             <div key={idx} className="flex flex-col items-start bg-white rounded-xl shadow border border-gray-200 p-3 md:p-4">
               <div className="w-full h-40 md:w-full md:h-48 relative mb-2 md:mb-3 rounded-lg overflow-hidden">
-                <Image src={sp.img} alt={sp.name} fill className="object-cover" />
+                <Image src={sp.img} alt={sp.name} width={100} height={100} className="object-cover h-full w-full object-[50%_10%]" />
               </div>
               <span className="text-green-700 font-semibold text-xs md:text-sm mb-1">{sp.role}</span>
               <span className="font-bold text-base md:text-lg text-left">{sp.name}</span>
@@ -150,7 +151,12 @@ export default function EventDetailPage({ params }: { params: Promise<{ slug: st
           )) : <div className="text-gray-500 col-span-full">No speakers announced yet.</div>}
         </div>
       </section>
-      <ReadySection />
+      <CTASection 
+        heading="Stay Informed About Civil Service Events"
+        subtext="Get updates on upcoming civil service events, workshops, and training sessions."
+        buttonLabel="Contact Us" 
+        buttonHref="/contact-us"
+      />
       <Footer />
     </div>
   );

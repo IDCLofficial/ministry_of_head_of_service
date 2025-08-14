@@ -69,7 +69,7 @@ const events: event[] = [
     title: "Inauguration of Imo State Civil Service Commission (new board)",
     description:
       "Governor administered oath and inaugurated the newly constituted Board of the Imo State Civil Service Commission — significant for appointments, postings and civil service administration in the state.",
-    img: "/images/events/Hope-Uzodimma.jpg",
+    img: "/images/events/inauguration.jpg",
     time: "10:00 AM",
     organizer: "Governor's Office, Imo State / Civil Service Commission",
     phone: "",
@@ -77,12 +77,12 @@ const events: event[] = [
     speakers: [
       {
         name: "Governor Hope Uzodimma",
-        img: "/images/speakers/hope-uzodimma.jpg",
+        img: "/images/events/Uzodimma.jpeg",
         role: "Inaugurating officer"
       },
       {
         name: "Chair, Imo State Civil Service Commission",
-        img: "/images/speakers/csc-chair.jpg",
+        img: "/images/events/chairman.jpg",
         role: "Commission Chair"
       }
     ]
