@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ReadySection from "../../news/ReadySection";
 import Footer from "../../components/Footer";
 import getEvents from "../eventsList";
 import { Events } from "../../../../lib/types";
@@ -113,10 +112,10 @@ export default async function EventDetailPage({ params }: { params: Promise<{ sl
         </div>
       </section>
       <CTASection 
-        heading="Join us in pioneering a tech-driven future for Imo State."
-        subtext="Together, we can foster innovation, empower youth with digital skills, promote research and development, and build smart, sustainable solutions that transform communities and fuel economic growth."
+        heading="Need Assistance with Civil Service Matters?"
+        subtext="Get help with appointments, promotions, pensions, and other civil service services."
         buttonLabel="Contact Us"
-        buttonHref="/contact-us" 
+        buttonHref="/contact-us"
       />
       <Footer />
     </div>

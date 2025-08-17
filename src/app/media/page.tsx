@@ -21,9 +21,9 @@ export default async function MediaPage() {
         <MediaGalleryGrid items={media as unknown as Media[]} />
       </section>
       <CTASection 
-        heading="Join us in pioneering a tech-driven future for Imo State." 
-        subtext="Together, we can foster innovation, empower youth with digital skills, promote research and development, and build smart, sustainable solutions that transform communities and fuel economic growth." 
-        buttonLabel="Contact Us" 
+        heading="Need Assistance with Civil Service Matters?"
+        subtext="Get help with appointments, promotions, pensions, and other civil service services."
+        buttonLabel="Contact Us"
         buttonHref="/contact-us"
       />
       <Footer />
