@@ -12,11 +12,11 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
     <>
       {/* Overlay */}
       <div
-        className="fixed inset-0 bg-black/40 z-[99]"
+        className="fixed inset-0 bg-black/40 z-[999]"
         onClick={onClose}
       />
       {/* Sidebar */}
-      <div className="fixed top-0 right-0 h-full w-64 max-w-[80vw] bg-[#232c39] z-[100] shadow-lg flex flex-col p-6 animate-slide-in">
+      <div className="fixed top-0 right-0 h-full w-64 max-w-[80vw] bg-[#232c39] z-[1099] shadow-lg flex flex-col p-6 animate-slide-in">
         <button
           className="absolute top-4 right-4 text-white text-2xl"
           aria-label="Close navigation menu"
@@ -24,7 +24,7 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
         >
           <FiX />
         </button>
-        <nav className="mt-12 relative">
+        <nav className="mt-12 relative z-[999]">
           <NavLinks mobile onClickLink={onClose} />
         </nav>
       </div>

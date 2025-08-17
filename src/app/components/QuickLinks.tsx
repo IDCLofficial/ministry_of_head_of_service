@@ -49,7 +49,7 @@ export default function QuickLinks() {
       >
         {links.map((link) => (
             <Link key={link.href} href={link.href} className="flex-1 flex flex-col justify-between relative p-4 md:p-6 bg-white 
-            w-[90%] h-[120px] md:h-[180px] mx-auto shadow-md hover:scale-105 transition-all duration-300 border-1 border-gray-200">
+            w-[90%] h-max md:h-[180px] mx-auto shadow-md hover:scale-105 transition-all duration-300 border-1 border-gray-200">
               <div>
                 <h3 className={`text-dark-secondary text-base md:text-lg font-bold mb-2`}>{link.title}</h3>
                 <p className="text-dark-primary-body text-[1rem] mb-4 md:mb-6">{link.desc}</p>

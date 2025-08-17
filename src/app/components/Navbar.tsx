@@ -4,12 +4,30 @@ import NavLinks from "./NavLinks"
 import { FiMenu } from "react-icons/fi";
 import Link from "next/link";
 import OfficeHours from "./OfficeHours";
+import { useEffect, useState } from "react";
+import Sidebar from "./Sidebar";
+import { createPortal } from "react-dom";
 
-interface NavbarProps {
-  onOpenSidebar: () => void;
-}
+export const Navbar = () => {
+    const [sidebarOpen, setSidebarOpen] = useState(false);
+    const [mounted, setMounted] = useState(false);
 
-export const Navbar = ({ onOpenSidebar }: NavbarProps) => {
+    // Close the sidebar if viewport becomes >= lg (1024px)
+    useEffect(() => {
+        const onResize = () => {
+            if (window.innerWidth >= 1024 && sidebarOpen) {
+                setSidebarOpen(false);
+            }
+        };
+        window.addEventListener('resize', onResize);
+        return () => window.removeEventListener('resize', onResize);
+    }, [sidebarOpen]);
+
+    // Ensure document is available for portal
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+
     return(
         <header className="fixed top-0 left-0 right-0 z-50 border-b-[0.1px] bg-[#232c39]/50 backdrop-blur-sm">
             <nav className="flex items-center justify-between w-full px-[1rem] sm:px-[2rem] lg:px-[3rem] py-[1.1rem] border-[#FFFFFF]">
@@ -28,12 +46,17 @@ export const Navbar = ({ onOpenSidebar }: NavbarProps) => {
                 <button
                     className="lg:hidden text-white text-3xl focus:outline-none"
                     aria-label="Open navigation menu"
-                    onClick={onOpenSidebar}
+                    onClick={() => setSidebarOpen(true)}
                     >
                     <FiMenu />
                 </button>
             </nav>
             <OfficeHours />
+            {/* Mobile-only Sidebar rendered via Portal to avoid stacking context issues */}
+            {mounted && sidebarOpen && createPortal(
+                <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />,
+                document.body
+            )}
         </header>
     )
 }

@@ -14,14 +14,9 @@ const MediaGalleryCard: React.FC<MediaGalleryCardProps> = ({ image, title, isVid
       className="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden flex flex-col cursor-pointer transition hover:shadow-md"
       onClick={onClick}
       role="button"
+      aria-label={`Open viewer for ${title}`}
       tabIndex={0}
-      onKeyDown={(e) => {
-        if (e.key === "Enter" || e.key === " ") {
-          e.preventDefault();
-          onClick?.();
-        }
-      }}
-      aria-label={`Open ${title}`}
+      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onClick?.(); } }}
     >
       <div className="relative w-full h-48">
         <Image src={image} alt={title} fill className="object-cover" />
