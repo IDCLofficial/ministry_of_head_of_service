@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: humanitarian-affairs
+  group: head-of-service
 
 env:
   HUSKY: 0
